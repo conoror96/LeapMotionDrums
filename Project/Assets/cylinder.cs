@@ -9,6 +9,7 @@ public class cylinder : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         tickSource = GetComponent<AudioSource>();
+        StartCoroutine(Example());
 	}
 	
 	// Update is called once per frame
@@ -19,5 +20,11 @@ public class cylinder : MonoBehaviour {
     void OnCollisionEnter (Collision collision)
     {
         tickSource.Play();
+        
+        
+    }
+    IEnumerator Example()
+    {
+        yield return new WaitForSeconds(2);
     }
 }
