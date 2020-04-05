@@ -1,7 +1,4 @@
 sceneSetups:
-- path: Assets/sandbox.unity
-  isLoaded: 0
-  isActive: 0
-- path: Assets/MainMenu.unity
+- path: Assets/_Scenes/drumhero.unity
   isLoaded: 1
   isActive: 1
