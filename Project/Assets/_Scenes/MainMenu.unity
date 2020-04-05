@@ -412,7 +412,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 432918, guid: b9c7aaf0d314cb847a3b2a20e893f1b6, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0.51
+      value: 0.323
       objectReference: {fileID: 0}
     - target: {fileID: 432918, guid: b9c7aaf0d314cb847a3b2a20e893f1b6, type: 2}
       propertyPath: m_LocalRotation.x
@@ -514,6 +514,14 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 432918, guid: b9c7aaf0d314cb847a3b2a20e893f1b6, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.007
+      objectReference: {fileID: 0}
+    - target: {fileID: 432918, guid: b9c7aaf0d314cb847a3b2a20e893f1b6, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.2814
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11406336, guid: b9c7aaf0d314cb847a3b2a20e893f1b6, type: 2}
     - {fileID: 11471522, guid: b9c7aaf0d314cb847a3b2a20e893f1b6, type: 2}
@@ -547,7 +555,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 659437231}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.4851699, y: 0.348, z: 2.8145223}
+  m_LocalPosition: {x: 1.4851699, y: 0.348, z: 2.833}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 872182725}
@@ -614,13 +622,13 @@ GameObject:
   - component: {fileID: 844186559}
   - component: {fileID: 844186558}
   - component: {fileID: 844186557}
-  - component: {fileID: 844186556}
   - component: {fileID: 844186555}
   - component: {fileID: 844186554}
   - component: {fileID: 844186553}
+  - component: {fileID: 844186556}
   m_Layer: 0
   m_Name: DrumHero
-  m_TagString: Untagged
+  m_TagString: drumhero
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -703,7 +711,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 844186551}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9297daf459d04a4890d5d84cf4d3637, type: 3}
+  m_Script: {fileID: 11500000, guid: 0c38ad103a189b6448813221b529d4d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!65 &844186557
@@ -771,13 +779,13 @@ GameObject:
   - component: {fileID: 872182724}
   - component: {fileID: 872182723}
   - component: {fileID: 872182722}
-  - component: {fileID: 872182721}
   - component: {fileID: 872182726}
   - component: {fileID: 872182728}
   - component: {fileID: 872182727}
+  - component: {fileID: 872182721}
   m_Layer: 0
   m_Name: Freestyle
-  m_TagString: Untagged
+  m_TagString: freestyle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -53,10 +53,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\_Scripts\GoToMenu.cs" />
      <Compile Include="Assets\_Scripts\HandIndicator.cs" />
      <Compile Include="Assets\_Scripts\Indicators.cs" />
-     <Compile Include="Assets\_Scripts\MainMenu.cs" />
+     <Compile Include="Assets\_Scripts\Menu Scripts\GoToDrumhero.cs" />
+     <Compile Include="Assets\_Scripts\Menu Scripts\GoToFreestyle.cs" />
+     <Compile Include="Assets\_Scripts\Menu Scripts\GoToMenu.cs" />
+     <Compile Include="Assets\_Scripts\Menu Scripts\GoToSettings.cs" />
      <Compile Include="Assets\_Scripts\PlayerSound.cs" />
      <Compile Include="Assets\_Scripts\SpeedController.cs" />
      <Compile Include="Assets\_Scripts\TrackSpeed.cs" />
