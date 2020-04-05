@@ -54,9 +54,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\_Scripts\cylinder.cs" />
+     <Compile Include="Assets\_Scripts\HandIndicator.cs" />
      <Compile Include="Assets\_Scripts\Indicators.cs" />
      <Compile Include="Assets\_Scripts\MainMenu.cs" />
      <Compile Include="Assets\_Scripts\PlayerSound.cs" />
+     <Compile Include="Assets\_Scripts\SpeedController.cs" />
      <Compile Include="Assets\_Scripts\TrackSpeed.cs" />
      <Compile Include="Assets\LeapMotion\Core\Examples\Example Assets\InertiaPostProcessProvider.cs" />
      <Compile Include="Assets\LeapMotion\Core\Examples\Example Assets\ProjectionPostProcessProvider.cs" />
