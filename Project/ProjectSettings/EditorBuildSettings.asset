@@ -5,13 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/main.unity
-    guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/MainMenu.unity
+    path: Assets/_Scenes/MainMenu.unity
     guid: fcbee0942b94e2e42ba5eb98f7996b83
   - enabled: 1
-    path: Assets/sandbox.unity
-    guid: 84946e3fa72b57943a23952760d9d2b2
+    path: Assets/_Scenes/Freestyle.unity
+    guid: a5743441a7af105468ef4d9a78d6aecf
+  - enabled: 1
+    path: Assets/_Scenes/drumhero.unity
+    guid: ff7c490406a8aa04594331a253813ec1
   m_configObjects: {}

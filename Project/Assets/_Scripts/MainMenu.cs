@@ -10,6 +10,7 @@ public class MainMenu : MonoBehaviour {
     void OnTriggerEnter(Collider other)
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+       // SceneManager.LoadScene("MainMenu", LoadSceneMode.Additive);
     }
 
 

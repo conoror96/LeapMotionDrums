@@ -10,8 +10,8 @@ public class Indicators : MonoBehaviour {
     public string notation;
 
 
-    private float nextPlayTime;
-    private int currentNote;
+    public float nextPlayTime;
+    public int currentNote;
    
 
 
@@ -42,8 +42,8 @@ public class Indicators : MonoBehaviour {
     {
         GameObject tempGO = Instantiate(prefab, transform);
         tempGO.transform.localPosition = new Vector3(0,0,5);
-        if (hand == "L") tempGO.GetComponent<HandIndicator>().lefthand.SetActive(true);
-        if (hand == "R") tempGO.GetComponent<HandIndicator>().righthand.SetActive(true);
+        //if (hand == "L") tempGO.GetComponent<HandIndicator>().lefthand.SetActive(true);
+        //if (hand == "R") tempGO.GetComponent<HandIndicator>().righthand.SetActive(true);
         iTween.MoveTo(tempGO, iTween.Hash("position", new Vector3(0,0,0), "time", 2f, "easeType", iTween.EaseType.linear, "isLocal", true));
         Destroy(tempGO, 2f);
     }

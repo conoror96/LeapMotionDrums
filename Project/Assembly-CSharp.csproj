@@ -53,7 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\_Scripts\cylinder.cs" />
+     <Compile Include="Assets\_Scripts\GoToMenu.cs" />
      <Compile Include="Assets\_Scripts\HandIndicator.cs" />
      <Compile Include="Assets\_Scripts\Indicators.cs" />
      <Compile Include="Assets\_Scripts\MainMenu.cs" />
