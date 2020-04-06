@@ -6,13 +6,14 @@ public class Indicators : MonoBehaviour {
 
 
     public GameObject prefab;
-
+   
     public string notation;
 
 
     public float nextPlayTime;
     public int currentNote;
    
+
 
 
 
@@ -45,6 +46,12 @@ public class Indicators : MonoBehaviour {
         //if (hand == "L") tempGO.GetComponent<HandIndicator>().lefthand.SetActive(true);
         //if (hand == "R") tempGO.GetComponent<HandIndicator>().righthand.SetActive(true);
         iTween.MoveTo(tempGO, iTween.Hash("position", new Vector3(0,0,0), "time", 2f, "easeType", iTween.EaseType.linear, "isLocal", true));
+
         Destroy(tempGO, 2f);
+        //Instantiate(Effect, transform.position, Quaternion.identity);
+      
+       
     }
+
+   
 }

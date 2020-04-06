@@ -8,7 +8,8 @@ public class GoToDrumhero : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene("drumhero");
+         SceneManager.LoadScene("drumhero");
+        
     }
 
 
