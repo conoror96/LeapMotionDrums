@@ -6,12 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Scenes/MainMenu.unity
-    guid: fcbee0942b94e2e42ba5eb98f7996b83
+    path: Assets/_Scenes/Menu.unity
+    guid: 8bbb0657e5045c4489bd4be9bd92b7d1
+  - enabled: 1
+    path: Assets/_Scenes/DifficultyMenu.unity
+    guid: 6a3a594f9bdda814f9922bf7f219b781
+  - enabled: 1
+    path: Assets/_Scenes/Easy.unity
+    guid: ff7c490406a8aa04594331a253813ec1
+  - enabled: 1
+    path: Assets/_Scenes/Medium.unity
+    guid: 42408f1eca2d9a849a2bf0c0d6c93169
+  - enabled: 1
+    path: Assets/_Scenes/Hard.unity
+    guid: 5e1a488f468b4be459de287668263f0a
   - enabled: 1
     path: Assets/_Scenes/Freestyle.unity
     guid: a5743441a7af105468ef4d9a78d6aecf
-  - enabled: 1
-    path: Assets/_Scenes/drumhero.unity
-    guid: ff7c490406a8aa04594331a253813ec1
   m_configObjects: {}
