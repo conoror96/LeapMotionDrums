@@ -4,7 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class FingerDetector : MonoBehaviour {
-
+    /*
+    This script is used for the Extended Finger Detector and Finger Direction Detector
+    It loads in the scene for the gesture or direction pointed by the user
+    */
 	public void Option1()
     {
         print("Activated");

@@ -3,22 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerSound : MonoBehaviour {
-   
+   /*
+   This script plays the drum sound when the user interacts with the colliders on the drums
+   It also changes the pitch of the drums by a random range between two values
+   */
     public AudioSource source;
-	// Use this for initialization
+	
 	void Start () {
         source = GetComponent<AudioSource>();
 	}
 	
 	 void OnTriggerEnter(Collider other)
     {
-        // if(other.tag == "DrumStickHead")
-        //{
-       
         // changes the audio pitch of drums each time their hit
         source.pitch = Random.Range(0.8f, 1.2f);
-        // source.volume = other.gameObject.GetComponent<TrackSpeed>().speed;
         source.Play();
-        //}
     }
 }
