@@ -909,7 +909,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 234521202}
-  notation: 1001001001001001001
+  notation: 1001001001001001
   nextPlayTime: 0
   currentNote: 0
 --- !u!1 &234521202
@@ -2547,7 +2547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f718863b4e36976488ecfa8240c3b602, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 0.8
 --- !u!1 &618710215
 GameObject:
   m_ObjectHideFlags: 0
@@ -4134,7 +4134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1285432315}
-  notation: 011010011010011010011
+  notation: 1000100010001000
   nextPlayTime: 0
   currentNote: 0
 --- !u!1001 &1122516807
@@ -4343,8 +4343,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f8b95993792c3741804dcac41210a87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lefthand: {fileID: 0}
-  righthand: {fileID: 0}
 --- !u!222 &1246301014
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4777,7 +4775,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1442178332443206, guid: e4402a8c0b59dae48a2c07512b86bbb7, type: 2}
-  notation: 10000100001000010000
+  notation: 0001000100010001
   nextPlayTime: 0
   currentNote: 0
 --- !u!1001 &1419695833
@@ -5603,7 +5601,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1246301011}
-  notation: 00010001000100010001
+  notation: 0100000000100000
   nextPlayTime: 0
   currentNote: 0
 --- !u!4 &1612603737 stripped
@@ -6027,7 +6025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1772388656}
-  notation: 1000010000100001000001
+  notation: 0000010000000010
   nextPlayTime: 0
   currentNote: 0
 --- !u!4 &1724240782 stripped
@@ -6193,7 +6191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 663066991}
-  notation: 100010001000100001
+  notation: 00110010100010100
   nextPlayTime: 0
   currentNote: 0
 --- !u!1 &1762444580
@@ -6239,7 +6237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 362825626}
-  notation: 101001010010100101
+  notation: 0010000000010100
   nextPlayTime: 0
   currentNote: 0
 --- !u!1 &1772388656

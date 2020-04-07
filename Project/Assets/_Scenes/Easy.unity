@@ -4100,8 +4100,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f8b95993792c3741804dcac41210a87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lefthand: {fileID: 0}
-  righthand: {fileID: 0}
 --- !u!222 &1246301014
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5187,7 +5185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1246301011}
-  notation: 10101010
+  notation: 001001001001001001
   nextPlayTime: 0
   currentNote: 0
 --- !u!4 &1612603737 stripped
@@ -5621,7 +5619,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1772388656}
-  notation: 01010101
+  notation: 1000001000001000001
   nextPlayTime: 0
   currentNote: 0
 --- !u!4 &1724240782 stripped
@@ -5787,7 +5785,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 663066991}
-  notation: 1001001001
+  notation: 100100100100100100
   nextPlayTime: 0
   currentNote: 0
 --- !u!1 &1762444580
