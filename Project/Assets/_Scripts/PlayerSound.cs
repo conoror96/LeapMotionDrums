@@ -13,7 +13,7 @@ public class PlayerSound : MonoBehaviour {
         source = GetComponent<AudioSource>();
 	}
 	
-	 void OnTriggerEnter(Collider other)
+	public void OnTriggerEnter(Collider other)
     {
         // changes the audio pitch of drums each time their hit
         source.pitch = Random.Range(0.8f, 1.2f);

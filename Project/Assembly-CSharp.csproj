@@ -57,6 +57,7 @@
      <Compile Include="Assets\_Scripts\Indicators.cs" />
      <Compile Include="Assets\_Scripts\PlayerSound.cs" />
      <Compile Include="Assets\_Scripts\SpeedController.cs" />
+     <Compile Include="Assets\_Scripts\VoiceControl.cs" />
      <Compile Include="Assets\LeapMotion\Core\Examples\Example Assets\InertiaPostProcessProvider.cs" />
      <Compile Include="Assets\LeapMotion\Core\Examples\Example Assets\ProjectionPostProcessProvider.cs" />
      <Compile Include="Assets\LeapMotion\Core\Plugins\LeapCSharp\Arm.cs" />
