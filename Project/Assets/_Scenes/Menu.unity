@@ -581,6 +581,26 @@ Prefab:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114702340546596604, guid: a59e5cbcd0dbbf448b2d3be0c229ee1b,
+        type: 2}
+      propertyPath: m_fontColor.r
+      value: 0.6792453
+      objectReference: {fileID: 0}
+    - target: {fileID: 114702340546596604, guid: a59e5cbcd0dbbf448b2d3be0c229ee1b,
+        type: 2}
+      propertyPath: m_fontColor.g
+      value: 0.61196154
+      objectReference: {fileID: 0}
+    - target: {fileID: 114702340546596604, guid: a59e5cbcd0dbbf448b2d3be0c229ee1b,
+        type: 2}
+      propertyPath: m_fontColor.b
+      value: 0.61196154
+      objectReference: {fileID: 0}
+    - target: {fileID: 114702340546596604, guid: a59e5cbcd0dbbf448b2d3be0c229ee1b,
+        type: 2}
+      propertyPath: m_fontColor32.rgba
+      value: 4288453805
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a59e5cbcd0dbbf448b2d3be0c229ee1b, type: 2}
   m_IsPrefabAsset: 0
@@ -678,8 +698,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280690226
-  m_fontColor: {r: 0.1981132, g: 0.1504539, b: 0.1504539, a: 1}
+    rgba: 4288453805
+  m_fontColor: {r: 0.6792453, g: 0.61196154, b: 0.61196154, a: 1}
   m_enableVertexGradient: 0
   m_fontColorGradient:
     topLeft: {r: 1, g: 1, b: 1, a: 1}

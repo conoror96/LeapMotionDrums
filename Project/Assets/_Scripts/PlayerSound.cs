@@ -19,4 +19,11 @@ public class PlayerSound : MonoBehaviour {
         source.pitch = Random.Range(0.8f, 1.2f);
         source.Play();
     }
+
+    public void GesturePlay()
+    {
+        // changes the audio pitch of drums each time their hit
+        source.pitch = Random.Range(0.8f, 1.2f);
+        source.Play();
+    }
 }

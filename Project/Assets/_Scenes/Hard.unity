@@ -4303,7 +4303,6 @@ GameObject:
   - component: {fileID: 1246301016}
   - component: {fileID: 1246301015}
   - component: {fileID: 1246301014}
-  - component: {fileID: 1246301013}
   m_Layer: 0
   m_Name: TomSmall
   m_TagString: Untagged
@@ -4331,18 +4330,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1246301013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114763784835405994, guid: b03b41e986db3124c8f220b4d6099966,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1246301011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f8b95993792c3741804dcac41210a87, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!222 &1246301014
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5243,7 +5230,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1476619790}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e98e641d160144e87a3d33fcdb893a02, type: 3}
   m_Name: 
@@ -5251,8 +5238,8 @@ MonoBehaviour:
   OnActivate:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1476619793}
-        m_MethodName: DifficultyOption2
+      - m_Target: {fileID: 829131141}
+        m_MethodName: GesturePlay
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5271,13 +5258,13 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   Period: 0.1
   HandModel: {fileID: 525709306}
-  Thumb: 0
-  Index: 0
-  Middle: 0
+  Thumb: 1
+  Index: 1
+  Middle: 1
   Ring: 1
   Pinky: 1
-  MinimumExtendedCount: 3
-  MaximumExtendedCount: 3
+  MinimumExtendedCount: 0
+  MaximumExtendedCount: 0
   ShowGizmos: 1
 --- !u!114 &1476619792
 MonoBehaviour:
@@ -5394,7 +5381,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1555061050}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e98e641d160144e87a3d33fcdb893a02, type: 3}
   m_Name: 
@@ -5402,8 +5389,8 @@ MonoBehaviour:
   OnActivate:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1555061053}
-        m_MethodName: DifficultyOption2
+      - m_Target: {fileID: 958463098}
+        m_MethodName: GesturePlay
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5422,55 +5409,13 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   Period: 0.1
   HandModel: {fileID: 1944805179}
-  Thumb: 0
-  Index: 0
-  Middle: 0
-  Ring: 1
-  Pinky: 1
-  MinimumExtendedCount: 3
-  MaximumExtendedCount: 3
-  ShowGizmos: 1
---- !u!114 &1555061052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1555061050}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e98e641d160144e87a3d33fcdb893a02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnActivate:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1555061053}
-        m_MethodName: Option3
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  OnDeactivate:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  Period: 0.1
-  HandModel: {fileID: 1944805179}
-  Thumb: 0
-  Index: 0
+  Thumb: 1
+  Index: 1
   Middle: 1
   Ring: 1
-  Pinky: 0
-  MinimumExtendedCount: 3
-  MaximumExtendedCount: 3
+  Pinky: 1
+  MinimumExtendedCount: 0
+  MaximumExtendedCount: 0
   ShowGizmos: 1
 --- !u!114 &1555061053
 MonoBehaviour:

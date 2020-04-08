@@ -1542,7 +1542,7 @@ MonoBehaviour:
   HandModel: {fileID: 525709306}
   FingerName: 1
   PointingType: 1
-  PointingDirection: {x: 0.5, y: 6, z: 4}
+  PointingDirection: {x: 1, y: 6.5, z: 4}
   TargetObject: {fileID: 0}
   OnAngle: 9
   OffAngle: 25
@@ -1964,6 +1964,48 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 880782587}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &977876763
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4365754024491370, guid: f784e75b29cff97429e9b4b8caf1b7b6, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.5795001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4365754024491370, guid: f784e75b29cff97429e9b4b8caf1b7b6, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.2576071
+      objectReference: {fileID: 0}
+    - target: {fileID: 4365754024491370, guid: f784e75b29cff97429e9b4b8caf1b7b6, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 2.9780827
+      objectReference: {fileID: 0}
+    - target: {fileID: 4365754024491370, guid: f784e75b29cff97429e9b4b8caf1b7b6, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4365754024491370, guid: f784e75b29cff97429e9b4b8caf1b7b6, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4365754024491370, guid: f784e75b29cff97429e9b4b8caf1b7b6, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4365754024491370, guid: f784e75b29cff97429e9b4b8caf1b7b6, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4365754024491370, guid: f784e75b29cff97429e9b4b8caf1b7b6, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f784e75b29cff97429e9b4b8caf1b7b6, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!4 &1000875684 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 464466, guid: 39d18871c11b53c4082d8202e3db68a3,
@@ -2456,7 +2498,7 @@ MonoBehaviour:
   HandModel: {fileID: 1944805179}
   FingerName: 1
   PointingType: 1
-  PointingDirection: {x: -2, y: 5, z: 3}
+  PointingDirection: {x: -1.5, y: 5, z: 3}
   TargetObject: {fileID: 0}
   OnAngle: 9
   OffAngle: 25
@@ -2508,7 +2550,7 @@ MonoBehaviour:
   HandModel: {fileID: 1944805179}
   FingerName: 1
   PointingType: 1
-  PointingDirection: {x: -2, y: 0.4, z: 1}
+  PointingDirection: {x: -2.5, y: 0.5, z: 1}
   TargetObject: {fileID: 0}
   OnAngle: 15
   OffAngle: 25
@@ -2549,7 +2591,7 @@ MonoBehaviour:
   HandModel: {fileID: 1944805179}
   FingerName: 1
   PointingType: 1
-  PointingDirection: {x: 1.7, y: 0.4, z: 1}
+  PointingDirection: {x: 1.5, y: 0.5, z: 1}
   TargetObject: {fileID: 0}
   OnAngle: 15
   OffAngle: 25
