@@ -2,6 +2,9 @@
 ## Unity project designed to be used with the Leap Motion Controller
 ## Developed as part of Gesture Based URI project
 
+### Conor O'Reilly
+### G00338592
+
 
 [Developer Diary](https://github.com/kodama96/LeapMotionDrums/wiki/Developer-Diary)
 
