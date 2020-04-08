@@ -10,7 +10,7 @@ Contains:
 * references
 * pictures and videos
 
-[Requirments doc](https://github.com/kodama96/LeapMotionDrums/wiki/Requirements-Doc)
+[Requirements doc](https://github.com/kodama96/LeapMotionDrums/wiki/Requirements-Doc)
 
 Write up on headings set out by lecturer
 
