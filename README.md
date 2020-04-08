@@ -1,6 +1,23 @@
 # LeapMotionDrums
-Unity project designed to be used with the Leap Motion Controller
+## Unity project designed to be used with the Leap Motion Controller
+## Developed as part of Gesture Based URI project
 
-Developed as part of Gesture Based URI project
 
-Refer to the wiki here: https://github.com/kodama96/LeapMotionDrums/wiki for developer diary, requirements doc and test plan
+[Developer Diary](https://github.com/kodama96/LeapMotionDrums/wiki/Developer-Diary)
+
+Contains:
+* Project progress
+* references
+* pictures and videos
+
+[Requirments doc](https://github.com/kodama96/LeapMotionDrums/wiki/Requirements-Doc)
+
+Write up on headings set out by lecturer
+
+[Test Plan](https://github.com/kodama96/LeapMotionDrums/wiki/Test-Plan)
+
+Document containing test cases for the project
+
+[Videos](https://github.com/kodama96/LeapMotionDrums/wiki/Videos)
+
+Videos for tour of github and application running
